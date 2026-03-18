@@ -1,48 +1,55 @@
 # 🚀 SPACE ADVENTURE
 
-**A terminal-based choose-your-own-adventure game where every decision can save or doom humanity.**
+**A stunning colored terminal choose-your-own-adventure where every decision can save or doom humanity.**
 
 You are **Commander Alex Chen** on a desperate mission to recover a revolutionary data core from the dying **Station Omega** before it explodes.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/akabyn5/space-adventure-cli?style=for-the-badge)
-![AI Powered](https://img.shields.io/badge/AI%20Assisted-Copilot%20%2B%20Claude-000000?style=for-the-badge&logo=githubcopilot)
+![Space Adventure Banner](https://raw.githubusercontent.com/akabyn5/space-adventure-cli/main/docss/qL9xF.jpg)
 
 ---
 
 ## 🎥 Gameplay Demo (Live Terminal)
 
-![Full Gameplay Demo](./assets/demo.gif)
+![New Colored Title Screen](https://raw.githubusercontent.com/akabyn5/space-adventure-cli/main/docss/WhatsApp%20Image%202026-03-18%20at%2002.24.25.jpeg)
 
-> *Watch the full immersive experience: dramatic ASCII title, live radiation meter, mission log, and branching decisions!*
+> *Now with full ANSI colors, sound effects, radar scans, loading bars, alarms, explosions and live status bars!*
 
-### Screenshot of the opening screen (exactly as it appears)
+### Live Mission Status (exactly how it looks)
 
-![Gameplay Screenshot](space/assets/screenshot.jpg)
+![Live Mission Status](https://raw.githubusercontent.com/akabyn5/space-adventure-cli/main/docss/C0k9T.jpg)
 
+### Gameplay Choice Example
+
+![Gameplay Choice](https://raw.githubusercontent.com/akabyn5/space-adventure-cli/main/docss/96C8m.jpg)
+
+### All 11 Endings Collage
+
+![11 Unique Endings](https://raw.githubusercontent.com/akabyn5/space-adventure-cli/main/docss/6oher.jpg)
+
+### Example Ending: Heroic Rescue
+
+![Heroic Rescue Ending](https://raw.githubusercontent.com/akabyn5/space-adventure-cli/main/docss/7uAX2.jpg)
+
+*(Alternative clean title screen – also included)*  
+![Alternative Title Screen](https://raw.githubusercontent.com/akabyn5/space-adventure-cli/main/docss/nCbUb.jpg)
 
 ---
 
-## ✨ Features
+## ✨ New Features (v2.0)
 
-- **Stunning ASCII title screen** with pixel-art "SPACE ADVENTURE" logo (just like in your screenshot!)
-- **Live Mission Status** — real-time score, radiation %, and mission log updates
-- **11 unique endings** — from Legendary Commander to catastrophic failure
-- **4 major branching decision trees** with 8+ critical choices
-- **Radiation & Score System** — risky choices increase radiation and affect endings
-- **Achievement Medals** — Legendary, Elite, Skilled, etc. based on final score
-- **Mission Log** — every decision is recorded and shown at the end
-- **Dramatic effects** — screen clears, timed pauses, bordered text, immersive storytelling
-- **Zero dependencies** — pure Python (stdlib only)
-- **Play-again loop** with graceful exit
+- **Full-color ANSI terminal** — cyan titles, green/red/yellow text, bold highlights
+- **Sound effects** (Windows) — alerts, success beeps, explosions, radar pings
+- **Live animations** — radar scan, loading bars, alarm flashes, reactor meltdown, shuttle approach, data transfer
+- **Colored live status bar** — real-time score + radiation progress bar
+- **11 unique endings** with colored borders and medals
+- **Mission log** with colored points
+- **Zero dependencies** (winsound only on Windows)
 
 ---
 
 ## 📖 How to Play
 
-1. **Clone & run**
-   ```bash
-   git clone https://github.com/akabyn5/space-adventure-cli.git
-   cd space-adventure-cli
-   python game.py
+```bash
+git clone https://github.com/akabyn5/space-adventure-cli.git
+cd space-adventure-cli
+python game.py
