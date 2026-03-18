@@ -19,7 +19,7 @@ You are **Commander Alex Chen** on a desperate mission to recover a revolutionar
 
 ### Screenshot of the opening screen (exactly as it appears)
 
-![Gameplay Screenshot](./assets/screenshot.png)
+![Gameplay Screenshot](space/assets/screenshot.jpg)
 
 
 ---
