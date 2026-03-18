@@ -1,35 +1,48 @@
-# Space Mission CLI Adventure
+# 🚀 SPACE ADVENTURE
 
-## Description
+**A terminal-based choose-your-own-adventure game where every decision can save or doom humanity.**
 
-Space Mission CLI Adventure is a terminal-based "choose your own adventure" game built in Python. The player takes on the role of an astronaut navigating critical mission decisions in space. Each choice impacts the outcome of the mission, leading to multiple possible endings including success, failure, or neutral scenarios.
+You are **Commander Alex Chen** on a desperate mission to recover a revolutionary data core from the dying **Station Omega** before it explodes.
 
----
-
-## How to Run
-
-Make sure you have Python installed, then run:
-
-```
-python game.py
-```
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/akabyn5/space-adventure-cli?style=for-the-badge)
+![AI Powered](https://img.shields.io/badge/AI%20Assisted-Copilot%20%2B%20Claude-000000?style=for-the-badge&logo=githubcopilot)
 
 ---
 
-## How Copilot Was Used
+## 🎥 Gameplay Demo (Live Terminal)
 
-GitHub Copilot was used throughout the development process to:
+![Full Gameplay Demo](./assets/demo.gif)
 
-* Generate the initial structure of the game
-* Create branching decision logic
-* Improve input validation to handle user choices correctly
-* Refactor the code into organized functions for better readability and flow
+> *Watch the full immersive experience: dramatic ASCII title, live radiation meter, mission log, and branching decisions!*
+
+### Screenshot of the opening screen (exactly as it appears)
+
+![Gameplay Screenshot](./assets/screenshot.png)
+
 
 ---
 
-## Example Prompts Used
+## ✨ Features
 
-* Create a Python CLI "choose your own adventure" game with an astronaut theme
-* Add branching decisions with multiple endings
-* Improve input validation
-* Refactor code into functions
+- **Stunning ASCII title screen** with pixel-art "SPACE ADVENTURE" logo (just like in your screenshot!)
+- **Live Mission Status** — real-time score, radiation %, and mission log updates
+- **11 unique endings** — from Legendary Commander to catastrophic failure
+- **4 major branching decision trees** with 8+ critical choices
+- **Radiation & Score System** — risky choices increase radiation and affect endings
+- **Achievement Medals** — Legendary, Elite, Skilled, etc. based on final score
+- **Mission Log** — every decision is recorded and shown at the end
+- **Dramatic effects** — screen clears, timed pauses, bordered text, immersive storytelling
+- **Zero dependencies** — pure Python (stdlib only)
+- **Play-again loop** with graceful exit
+
+---
+
+## 📖 How to Play
+
+1. **Clone & run**
+   ```bash
+   git clone https://github.com/akabyn5/space-adventure-cli.git
+   cd space-adventure-cli
+   python game.py
