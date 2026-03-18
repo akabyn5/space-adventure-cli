@@ -53,3 +53,14 @@ You are **Commander Alex Chen** on a desperate mission to recover a revolutionar
 git clone https://github.com/akabyn5/space-adventure-cli.git
 cd space-adventure-cli
 python game.py
+
+## 🤖 GitHub Copilot Usage
+
+We used GitHub Copilot during development to:
+
+- Generate CLI interaction logic
+- Suggest function structures
+- Debug errors in the game loop
+- Help document the project
+
+Copilot significantly accelerated development and reduced manual coding effort.
